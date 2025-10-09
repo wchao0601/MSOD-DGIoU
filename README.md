@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 
 ### Data Preparation
-<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/data-stastics1.png" width="49.5%"> </p>
+<p align="left"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/data-stastics1.png" width="49.5%"> </p>
 
 | Dataset | Down-Link | Image Size |
 | :---: | :---: | :---: |
