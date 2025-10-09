@@ -19,13 +19,13 @@ Synthetic Aperture Radar (SAR) has attracted significant attention due to its ex
 ### Installation
 Create and activate a conda environment:
 ```
-conda create -n lbgd python=3.11
-conda activate lbgd
+conda create -n dgiou python=3.11
+conda activate dgiou
 ```
 Install the required packages:
 ```
-git clone https://github.com/wchao0601/LBGD.git
-cd LBGD/
+git clone https://github.com/wchao0601/MSOD-DGIoU.git
+cd MSOD-DGIoU/
 pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
 pip install seaborn thop timm einops
 pip install -r requirements.txt
@@ -50,20 +50,12 @@ python train.py
 python test.py
 ```
 
-### Predict
-```python
-python predict.py
-```
 
 ## 📈 Results
 <p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/results1.png" width="99.5%"> </p>
 <p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/results2.png" width="99.5%"> </p>
 <p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/vis-detection.png" width="99.5%"> </p>
 <p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/vis-heatmap.png" width="99.5%"> </p>
-
-|  Model     | YOLOv8S | YOLOv8N | Mimic | CWD | MGD | PKD | CrossKD | LSKD | LBGD (Ours)|
-| :---:      | :---: | :---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|  Weights   |[Download](https://pan.baidu.com/s/1wLSLH8xxIRUmrbhCGv59bQ?pwd=0601)|[Download](https://pan.baidu.com/s/1yHA6ER-iT2gV-KMYh9XKjQ?pwd=0601)|[Download](https://pan.baidu.com/s/1s10Dgkc4AHA0ERQI0MynNg?pwd=0601)|[Download](https://pan.baidu.com/s/1gl8I_uJENIfLNPCIBMWmIg?pwd=0601)|[Download](https://pan.baidu.com/s/1Iz16XkU_JB8PBKTMfxWnSA?pwd=0601)|[Download](https://pan.baidu.com/s/1B4gMxwclgogyCosHkYla3A?pwd=0601)|[Download](https://pan.baidu.com/s/1_UvWYoRsh15UYMBkWJYeAg?pwd=0601)|[Download](https://pan.baidu.com/s/18w-6Z23H40oRO_uCRgIXhQ?pwd=0601)|[Download](https://pan.baidu.com/s/16aKLoscwT10lvOEXE0Pvuw?pwd=0601)|
 
 ## 🌐 Contact
 If you have any questions, please feel free to contact me via email at wchao0601@163.com
