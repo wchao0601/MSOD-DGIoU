@@ -33,7 +33,8 @@ pip install -r requirements.txt
 
 
 ### Data Preparation
-<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/data-stastics1.png" width="99.5%"> </p>
+<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/data-stastics1.png" width="49.5%"> </p>
+
 | Dataset | Down-Link | Image Size |
 | :---: | :---: | :---: |
 | MSOD | [Baidu](https://pan.baidu.com/s/1bVY9rd9Q_XRLAqgIM615Ow?pwd=0601)|1024 x 1024|
