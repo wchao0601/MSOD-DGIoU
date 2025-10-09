@@ -5,7 +5,7 @@
 <h4> 2025</h4>
 </div>
 
-#### This repository contains the offical implementation of paper: MSOD: A Large-Scale Multi-Scene Dataset and a Novel Diagonal-Geometry Loss for SAR Object Detection, TGRS 2025
+#### This repository contains the official implementation of the paper: MSOD: A Large-Scale Multi-Scene Dataset and a Novel Diagonal-Geometry Loss for SAR Object Detection, TGRS 2025
 
 ## ✨ Overview
 Synthetic Aperture Radar (SAR) has attracted significant attention due to its excellent all-weather imaging capabilities. However, SAR image object detection methods face two major challenges: 1) Most existing datasets are small in volume and single in category and scene. 2) Existing IoU-based loss functions cannot fully capture the relationship between prediction and target bounding boxes. To further advance the development of the SAR object detection method, we construct a large-scale multi-scene SAR object detection dataset called MSOD. It comprises three distinct scenarios, containing 40K images and about 1M instances of interest classified into six categories. In addition, we propose a novel diagonal-based similarity loss, Diagonal-Geometry IoU (DGIoU), to optimize the performance of SAR object detection by measuring the similarity between the diagonal of the prediction and target boxes. Specifically, we equivalently represent a rectangular box as a diagonal, and then define DGIoU based on the similarity of a set of sampling points between the diagonals of the predicted box and the target box. DGIoU effectively characterizes the difference between the predicted box and the target box, particularly in box inclusion and separation cases, resulting in improved localization accuracy. Numerous experimental results demonstrate that MSOD is closer to practical application and more challenging than existing SAR image datasets, and serves as a strong benchmark for evaluating the effectiveness of various IoU loss functions.
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 
 ### Data Preparation
-
+<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/data-stastics1.png" width="99.5%"> </p>
 | Dataset | Down-Link | Image Size |
 | :---: | :---: | :---: |
 | MSOD | [Baidu](https://pan.baidu.com/s/1bVY9rd9Q_XRLAqgIM615Ow?pwd=0601)|1024 x 1024|
@@ -55,6 +55,8 @@ python predict.py
 ```
 
 ## 📈 Results
+<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/results1.png" width="99.5%"> </p>
+<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/results2.png" width="99.5%"> </p>
 <p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/vis-detection.png" width="99.5%"> </p>
 <p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/vis-heatmap.png" width="99.5%"> </p>
 
