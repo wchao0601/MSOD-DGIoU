@@ -2,7 +2,7 @@
 <!-- <h1> LBGD </h1> -->
 <h2> <a href="https://ieeexplore.ieee.org/document/11150448">MSOD: A Large-Scale Multi-Scene Dataset and a Novel Diagonal-Geometry Loss for SAR Object Detection</h2>
 <h3> Chao Wang, Wenxuan Fang, Xiang Li, Jian Yang, Lei Luo*</h3>
-<h4> 2025</h4>
+<h4> Accepted to IEEE TGRS 2025</h4>
 </div>
 
 #### This repository contains the official implementation of the paper: MSOD: A Large-Scale Multi-Scene Dataset and a Novel Diagonal-Geometry Loss for SAR Object Detection, TGRS 2025
@@ -76,6 +76,14 @@ If our work is helpful, you can cite our paper:
   author={Wang, Chao and Lu, Wei and Li, Xiang and Yang, Jian and Luo, Lei},
   journal={arXiv preprint arXiv:2505.10931},
   year={2025}
+}
+
+@article{wang2026localized,
+  title={Localized Background-aware Generative Distillation for Enhanced Remote Sensing Object Detection},
+  author={Wang, Chao and Sun, Yanguang and Yang, Jian and Luo, Lei},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2026},
+  publisher={IEEE}
 }
 
 @article{wang2023category,
